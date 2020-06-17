@@ -61,4 +61,4 @@ PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value
 
 ## License
 
-Glocurrency Api Layer is open-sourced software licensed under the [MIT license](LICENSE).
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fglocurrency%2Fapi-layer.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fglocurrency%2Fapi-layer?ref=badge_large)
