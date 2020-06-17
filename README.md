@@ -14,4 +14,4 @@ composer require glocurrency/api-layer
 
 ## License
 
-Laravel Passport is open-sourced software licensed under the [MIT license](LICENSE).
+Glocurrency Api Layer is open-sourced software licensed under the [MIT license](LICENSE).
