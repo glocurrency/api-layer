@@ -25,6 +25,10 @@ class ApiLayerServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__.'/../config/apilayer.php' => config_path('apilayer.php'),
             ], 'apilayer-config');
+
+            $this->commands([
+                Console\PassportCommand::class,
+            ]);
         }
     }
 
