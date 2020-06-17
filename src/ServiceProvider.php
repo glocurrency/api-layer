@@ -4,7 +4,7 @@ namespace Glocurrency\Middleware;
 
 use Illuminate\Support\ServiceProvider;
 
-class AdminServiceProider extends ServiceProvider
+class AdminServiceProvider extends ServiceProvider
 {
 
 }
