@@ -1,6 +1,6 @@
 <?php
 
-namespace Glocurrency\ApiLayer;
+namespace Glocurrency\ApiLayer\Http\Controllers;
 
 use Illuminate\Http\Request;
 
