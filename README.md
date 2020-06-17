@@ -13,7 +13,7 @@ composer require glocurrency/api-layer
 ```
 
 ### Passport
-This module use Laravel Passport heavily. In order to make it work properly, follow the steps:
+This module use <a href="https://github.com/laravel/passport">Laravel Passport</a> heavily. In order to make it work properly, follow the steps:
 1. Run 
 ```
 php artisan glo:apilayer:passport
@@ -43,6 +43,20 @@ public function boot()
 
     ApiLayer::passport();
 }
+```
+
+4. Generate both <a href="https://laravel.com/docs/master/passport#client-credentials-grant-tokens">Client</a> and <a href="https://laravel.com/docs/master/passport#creating-a-personal-access-client">Personal</a> grant tokens.
+
+```
+php artisan passport:client --client
+php artisan passport:client --personal
+```
+
+After creating your personal access client, place the client's ID and plain-text secret value in your application's `.env` file:
+
+```ini
+PASSPORT_PERSONAL_ACCESS_CLIENT_ID=client-id-value
+PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value
 ```
 
 ## License
