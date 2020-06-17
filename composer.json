@@ -1,7 +1,7 @@
 {
     "name": "glocurrency/api-layer",
-    "description": "Basic middleware package.",
-    "keywords": ["laravel", "middleware", "passport"],
+    "description": "Basic API package.",
+    "keywords": ["laravel", "api", "passport"],
     "license": "MIT",
     "support": {
         "issues": "https://github.com/glocurrency/middleware/issues",
