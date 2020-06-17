@@ -1,12 +1,12 @@
 <?php
 
-namespace Glocurrency\ApiLayer\Http\Controllers;
+namespace Glocurrency\ApiLayer\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 
 class PingController
 {
-    public function index(Request $request)
+    public function ping(Request $request)
     {
         return response()->json([
             'success' => true,
