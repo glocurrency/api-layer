@@ -73,7 +73,7 @@ class ApiLayer
     public static function routes($callback = null, array $options = [])
     {
         $defaultOptions = [
-            'prefix' => 'oauth',
+            'prefix' => 'admin',
             'namespace' => '\Glocurrency\ApiLayer\Http\Controllers',
         ];
 
