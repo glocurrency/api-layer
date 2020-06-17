@@ -41,7 +41,7 @@ class RouteRegistrar
      */
     public function forPing()
     {
-        $this->router->group(['middleware' => ['api']], function ($router) {
+        $this->router->group(['middleware' => ['client:ping-api']], function ($router) {
             $router->get('/ping', [
                 'uses' => 'PingController@ping',
             ]);
