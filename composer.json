@@ -4,8 +4,8 @@
     "keywords": ["laravel", "api", "passport"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/glocurrency/middleware/issues",
-        "source": "https://github.com/glocurrency/middleware"
+        "issues": "https://github.com/glocurrency/api-layer/issues",
+        "source": "https://github.com/glocurrency/api-layer"
     },
     "authors": [
         {
@@ -14,6 +14,8 @@
         }
     ],
     "require": {
+        "php": "^7.2",
+        "goldspecdigital/laravel-eloquent-uuid": "^7.0",
         "laravel/passport": "^9.2"
     },
     "require-dev": {
@@ -34,7 +36,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Glocurrency\\ApiLayer\\ServiceProvider"
+                "Glocurrency\\ApiLayer\\ApiLayerServiceProvider"
             ]
         }
     },
