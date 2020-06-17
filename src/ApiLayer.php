@@ -3,7 +3,6 @@
 namespace Glocurrency\ApiLayer;
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Routing\RouteRegistrar;
 use Illuminate\Support\Str;
 use Laravel\Passport\Passport;
 
@@ -70,11 +69,15 @@ class ApiLayer
      *
      * @return void
      */
-    public static function routes($callback = null, array $options = [])
+    public static function adminRoutes($callback = null, array $options = [])
     {
+        $callback = $callback ?: function ($router) {
+            $router->all();
+        };
+
         $defaultOptions = [
             'prefix' => 'admin',
-            'namespace' => '\Glocurrency\ApiLayer\Http\Controllers',
+            'namespace' => '\Glocurrency\ApiLayer\Http\Controllers\Admin',
         ];
 
         $options = array_merge($defaultOptions, $options);
