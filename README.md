@@ -4,6 +4,7 @@
 <a href="https://packagist.org/packages/glocurrency/api-layer"><img src="https://poser.pugx.org/glocurrency/api-layer/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/glocurrency/api-layer"><img src="https://poser.pugx.org/glocurrency/api-layer/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/glocurrency/api-layer"><img src="https://poser.pugx.org/glocurrency/api-layer/license.svg" alt="License"></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fglocurrency%2Fapi-layer?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fglocurrency%2Fapi-layer.svg?type=shield"/></a>
 </p>
 
 ## Installation
@@ -62,3 +63,6 @@ PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value
 ## License
 
 Glocurrency Api Layer is open-sourced software licensed under the [MIT license](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fglocurrency%2Fapi-layer.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fglocurrency%2Fapi-layer?ref=badge_large)
