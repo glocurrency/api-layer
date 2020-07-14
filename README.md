@@ -59,6 +59,16 @@ PASSPORT_PERSONAL_ACCESS_CLIENT_ID=client-id-value
 PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value
 ```
 
+5. Use `UnauthenticatedTrait` in your `app/Exceptions/Handler.php` file:
+
+```php
+use Glocurrency\ApiLayer\Traits\UnauthenticatedTrait;
+
+class Handler extends ExceptionHandler
+{
+    use UnauthenticatedTrait;
+```
+
 ## License
 
 Glocurrency Api Layer is open-sourced software licensed under the [MIT license](LICENSE).
